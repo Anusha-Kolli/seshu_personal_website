@@ -1,0 +1,45 @@
+html, body, div {
+    /* Height and width fallback for older browsers. */
+    height: 100%;
+    width: 100%;
+
+    /* Set the height to match that of the viewport. */
+    height: 100vh;
+
+    /* Set the width to match that of the viewport. */
+    width: 100vw;
+
+    /* Remove any browser-default margins. */
+    margin: 0;
+    padding:0;
+    
+}
+
+#firstpart{
+    color:white;
+    text-align:center;
+   padding: 18em 0 15em 0;
+   width:50px;
+}
+#secondpart{
+    width:50px;
+    overflow:hidden;
+    clear: both; 
+    background-color:rgb(238, 190, 119)  
+
+}
+.nav {
+padding-left: 3em;
+padding-top: 3em;
+color:black;
+
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+    color: black;
+    background-color:#ef8f00;
+}
+
+    .nav-pills > li.active > a:hover {
+        background-color: #cebc34;
+        color:black;
+    }

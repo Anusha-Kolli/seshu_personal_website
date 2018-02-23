@@ -1,0 +1,48 @@
+
+<div class= "container-fluid">
+    <div class = "row">
+      
+          <div class="col-lg-6" id = firstpart style="background-image: url(/assets/images/image.png)">
+              
+              <h3>Hello! <br>This is Seshu</h3>
+              <P>A Mobile Developer in SAP America</P>
+           
+            </div>
+       
+          <div class="col-lg-6" id = secondpart>
+            <div class = "container" >
+                <div class = "row">
+                   <ul class="nav nav-pills red">
+                      <li routerLinkActive = "active">
+                        <a routerLink = "/" class="nav-link" routerLinkActive = "active" [routerLinkActiveOptions]="{exact:true}">About Me</a>
+                      </li>
+                      <li routerLinkActive = "active">
+                        <a  routerLink = "/projects" class="nav-link" routerLinkActive = "active" > My Projects</a>
+                      </li>
+                      <li routerLinkActive = "active">
+                        <a routerLink = "/contacts" class="nav-link" routerLinkActive = "active" > Contact Me</a>
+                      </li>
+                    </ul>
+                    <div class ="">
+                      
+                      <router-outlet></router-outlet>
+                   </div>
+              </div>
+              
+          
+          </div>
+        </div>
+
+     </div>
+</div>
+
+
+
+
+
+
+
+
+
+        
+      

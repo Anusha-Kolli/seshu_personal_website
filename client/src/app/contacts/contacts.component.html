@@ -1,0 +1,29 @@
+<div class = "contact_info">
+  <h5>You can contact me at!</h5>
+   <p> sesiseshu@gmail.com</p>
+   <div class = "form">
+    <form #form ="ngForm"  (submit) = "addQuestion()" >
+          <h5 class = "page-header" >You can ask me a question</h5>
+        <div class = "form-group">
+              <label> Name:</label>
+              
+              <input type = "text" [(ngModel)]= "name" name = "name" class = "form-control" required>
+           
+        </div>
+        <div class = "form-group">
+            <label> Email:</label>
+            
+            <input type = "text"  [(ngModel)]= "email" name = "email" class = "form-control" required>
+          
+       </div>
+       <div class = "form-group">
+           <label> Question: </label>
+         
+           <input type = "text" [(ngModel)]= "quest" name = "quest" class = "form-control" required>
+         
+       </div>
+       <input type = "submit" value = "Post" class = "btn btn btn-success" >
+  </form>
+</div>   
+</div>
+

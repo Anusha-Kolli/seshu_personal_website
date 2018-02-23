@@ -1,0 +1,19 @@
+
+.contact_info {
+    margin-left: 1em;
+    padding-right:1em;
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif ;;
+    padding-left: 10em;
+    padding-top:1em;
+    color: green;
+}
+p{
+    font-family:cursive;
+    padding-left: 14em;
+
+}
+.form{
+    color:green;
+}
